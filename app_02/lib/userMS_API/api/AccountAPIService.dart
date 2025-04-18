@@ -4,7 +4,7 @@ import '../model/Account.dart';
 
 class AccountAPIService {
   static final AccountAPIService instance = AccountAPIService._init();
-  final String baseUrl = 'https://my-json-server.typicode.com/nmaicuti/testflutter';
+  final String baseUrl = 'https://my-json-server.typicode.com/buithilethu/Testfulter';
 
   AccountAPIService._init();
 
