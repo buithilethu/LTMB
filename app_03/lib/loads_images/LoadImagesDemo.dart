@@ -15,17 +15,19 @@ class LoadImagesDemo extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
             Expanded(
-              child: Image.asset('assets/images/anh-nen-4k-cho-desktop_105907396.jpg'),
+              child: Image.asset('assets/images/1.jpg'),
             ),
             Expanded(
-                child: Image.asset('assets/images/anh-nen-anime-4k-thien-nhien_062607131.jpg')
+              child: Image.asset('assets/images/2.jpg'),
             ),
             Expanded(
-              child: Image.asset('assets/images/anh-nen-cho-may-tinh-4k_105908365.jpg'),
+              child: Image.asset('assets/images/3.jpg'),
             ),
           ],
         ),
       ),
+
+
 
     );
   }
