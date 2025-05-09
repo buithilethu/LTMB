@@ -1,4 +1,4 @@
-name: app_05
+name: tmck
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -30,9 +30,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-    sqflite: ^2.0.0+3
-    firebase_core: ^1.10.0
-    firebase_auth: ^3.3.5
+
+
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
@@ -40,6 +39,12 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  sqflite: ^2.3.0    # Thư viện SQLite
+  path_provider: ^2.1.1  # Lấy đường dẫn lưu trữ
+  path: ^1.8.3       # Xử lý đường dẫn tệp
+  intl: ^0.18.1      # Định dạng ngày giờ
+
+
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
